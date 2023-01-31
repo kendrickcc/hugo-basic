@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hugo Basic Site'
 copyright = 'All rights reserved'
 paginate = 2
 summaryLength = 20
@@ -22,7 +22,6 @@ summaryLength = 20
   name = 'GitHub'
   url = 'http://www.github.com/'
   weight = 40
-
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
