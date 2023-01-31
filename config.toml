@@ -2,8 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
-[params]
-slogan = 'Super Fast!'
+copyright = 'All rights reserved'
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
@@ -11,3 +10,6 @@ slogan = 'Super Fast!'
     [markup.goldmark.renderer]
       # change to 'true' if you need to render raw HTML within your markdown content
       unsafe = true
+
+[params]
+slogan = 'Super Fast!'
