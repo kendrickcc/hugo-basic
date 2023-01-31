@@ -1,23 +1,12 @@
-    
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    {{ partial "head" . }}
+  </head>
 
-<head>
-  {{ partial "head" . }}
-</head>
-
-<body>
-  <header>
-    {{/* partial "header" . */}}
-    {{ partial "navbar" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer" . }}
-    {{ partial "script-footer" . }}
-  </footer>
-</body>
-
+  <body>
+    <header>{{/* partial "header" . */}} {{ partial "navbar" . }}</header>
+    <main>{{ block "main" . }}{{ end }}</main>
+    <footer>{{ partial "footer" . }} {{ partial "script-footer" . }}</footer>
+  </body>
 </html>
