@@ -1,3 +1,13 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[params]
+slogan = 'Super Fast!'
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # change to 'true' if you need to render raw HTML within your markdown content
+      unsafe = true
