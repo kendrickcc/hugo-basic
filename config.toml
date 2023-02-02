@@ -16,12 +16,12 @@ summaryLength = 20
   weight = 20
 [[menu.main]]
   name = 'About'
-  url = '/about/'
-  weight = 30
+  url = '/page/about'
+  weight = 40
 [[menu.main]]
   name = 'GitHub'
   url = 'http://www.github.com/'
-  weight = 40
+  weight = 99
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
