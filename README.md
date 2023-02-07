@@ -1,6 +1,8 @@
 # hugo-basic
 
- Basic Hugo site
+A Basic Hugo site built from scratch.
+
+Does have a cookie consent added but needs to be formatted to show at footer. Unfinished work.
 
 ## setup
 
